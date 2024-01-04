@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Escola Virtul</title>
+</head>
+<body style="background-color:bisque;"></body>
+<body>
+    <div style="border: double;"></div>
+<!--CENTRALIZAR O TEXTO-->   <center><h1>ESCOLA VIRTUAL</h1>
+                             <H3>Formulário de pré-matrícula</H3></center>
+                             <hr>
+                             <strong>Dados Pessoais:</strong>
+
+<center><strong>Nome do aluno: <input style="text"> </strong></center><br>
+
+<center><strong>Data de nascimento(DD/MM/AAAA): <input type="text"size="5"> / <input type="text"size="5"> / <input type="text"size="5"></strong></center><br>
+
+<center><strong>Nome da Mãe: <input style="text"> </strong></center><br>
+
+<center><strong>Nome do Pai: <input style="text"> </strong></center><br>
+    
+<center><strong>Telefone (DDD) <input type="text"size="5"><stong>TEL:<input type="text"></stong><strong>Ramal:<input type="text"size="5"></strong></center><br>
+<div style="border: double;"
+<!--MENU DE SELEÇÃO DO ANO ESCOLAR-->
+<strong>Informações de Matrícula:</strong><br>
+<!--MENU PARA SELECIONAR O TURNO(SELECT)-->
+<strong>Série: </strong>
+<select name="Serie_escolar">
+    <option value="">Escolha a série desejada</option>
+    <option value="1º ao 5º ano">1º ao 5ºano</option>
+    <option value="6º ao 9º ano">6º ao 9º ano</option>
+    <option value="1º EM ao 3º EM">1º EM ao 3º EM</option>
+</select><br>
+
+<!--MENU DE SELEÇÃO DO TURNO(RADIOBUTTON)-->    
+   <br> <label>
+    Turno: <input type="radio" name="turno" value="manhã"/>Manhã
+    <input type="radio" name="turno" value="tarde"> tarde<br>
+    
+</label><br>
+<!--MENU DE SELEÇÃO DE SELEÇÃO DE ATIVIDADES (CHECKBOX)-->
+<label>
+<strong>Atividades extracurriculares:</strong><br>
+<input type="checkbox" name="opcoes" value="Judô"/> Judô<br />
+<input type="checkbox" name="opcoes" value="~Informática"/> Informática<br />
+<input type="checkbox" name="opcoes" value="balé"/> balé<br />
+<input type="checkbox" name="opcoes" value="natação"/> natação<br>
+
+</label><br>
+<button name="button">Enviar formulário</button> <button name="butoton">Limpar campos</button>
+</body>
+</html>
